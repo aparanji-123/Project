@@ -14,6 +14,6 @@ public class AppTest
     public void test() throws InterruptedException
     {
     	App t1=new App();    
-  	    t1.multiply(8); 
+  	    t1.multiply(5); 
     }
 }
