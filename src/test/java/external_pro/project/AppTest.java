@@ -1,7 +1,5 @@
 package external_pro.project;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -13,8 +11,9 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void test() throws InterruptedException
     {
-        assertTrue( true );
+    	App t1=new App();    
+  	    t1.multiply(8); 
     }
 }
